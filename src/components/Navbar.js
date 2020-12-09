@@ -76,7 +76,7 @@ export default function Navbar() {
 							<SearchIcon />
 						</div>
 						<InputBase
-							placeholder="Search…"
+							placeholder="Enter Country ..."
 							classes={{
 								root: classes.inputRoot,
 								input: classes.inputInput,
