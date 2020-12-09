@@ -35,7 +35,6 @@ export default function InfoPanel() {
 					// lastUpdate: data.lastUpdate,
 				};
 				setGlobalData(modifiedData);
-				console.log(globalData);
 			} catch (error) {
 				console.log(error);
 			}
