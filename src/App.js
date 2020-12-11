@@ -20,12 +20,14 @@ class App extends Component {
 	render() {
 		const { data } = this.state;
 		return (
-			<div className="container">
-				{/* <Navbar /> */}
-				<Cards data={data} />
-				<CountryPicker />
-				<Chart />
-			</div>
+			<>
+				<Navbar />
+				<div className="container">
+					<Cards data={data} />
+					<CountryPicker />
+					<Chart />
+				</div>
+			</>
 		);
 	}
 }
