@@ -1,15 +1,8 @@
-import "./App.css";
-import InfoPanel from "./components/InfoPanel";
-import Navbar from "./components/Navbar";
+import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-	return (
-		<div>
-			<Navbar />
-			<InfoPanel />
-		</div>
-	);
+	return <div></div>;
 }
 
 export default App;
